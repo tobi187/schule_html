@@ -17,22 +17,22 @@
 .grid {
     margin: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 7fr;
     gap: 0;
 }
 
 .headline {
-    grid-column: 1 / 4;
+    grid-column: 1 / 5;
     grid-row: 1;
     background-color: gray;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    line-height: 70px;
     padding-top: 1px;
 }
 
 .nav {
+    padding: 40px 60px;
     background-color: yellow;
     grid-column: 1;
     grid-row: 2;
@@ -40,7 +40,14 @@
 
 .content {
     background-color: green;
-    grid-column: 2 / 4;
+    grid-column: 2 / 5;
     grid-row: 2;
 }
 
+.btn-nav {
+    width: 100px;
+    height: 50px;
+    border: solid 2px wheat;
+    text-align: center;
+    border-radius: 15px;
+}
