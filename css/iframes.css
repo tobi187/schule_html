@@ -1,5 +1,10 @@
 body {
     background-color: lightblue;
     color: red;
-    padding: 100px 100px;
+    padding: 50px 50px;
+}
+
+.images {
+    height: 200;
+    width: 400;
 }

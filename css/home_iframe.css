@@ -10,3 +10,8 @@ h2.medium {
 h3.small {
     color: chocolate;
 }
+
+body {
+    background-color: lightgreen;
+    padding: 50px 50px;
+}
